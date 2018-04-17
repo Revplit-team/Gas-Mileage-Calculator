@@ -6,7 +6,32 @@ header("Content-Type: text/javascript; charset=utf-8");
 	<h2 class="text-center">Gas Mileage Calculator</h2>
 	
 	<form id="pjGasCalcForm" action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
-		
+	    <div class="form-group">
+	      	<label class="control-label col-sm-4">Distance Driven</label>
+	      	<div class="col-sm-2">
+	      		<input type="text" id="distance" name="distance" class="form-control number required" />
+	        	<div class="help-block with-errors"><ul class="list-unstyled"></ul></div>
+	      	</div>
+	      	<div class="col-sm-2">
+	      		<select id="distanceUnits" name="distanceUnits" class="form-control">
+					<option value="miles">Miles</option>
+					<option value="km">km</option>
+				</select>
+	      	</div>
+	    </div>
+	    <div class="form-group">
+	      	<label class="control-label col-sm-4">Gas Used</label>
+	      	<div class="col-sm-2">
+	      		<input type="text" id="fuelUsed" name="fuelUsed" class="form-control number required" />
+	        	<div class="help-block with-errors"><ul class="list-unstyled"></ul></div>
+	      	</div>
+	      	<div class="col-sm-2">
+	      		<select id="fuelUnits" name="fuelUnits" class="form-control">
+					<option value="gallons">Gallons</option>
+					<option value="litres">Litres</option>
+				</select>
+	      	</div>
+	    </div>
 	    <div class="form-group">
 	      	<label class="control-label col-sm-4">Price of Gas</label>
 	      	<div class="col-sm-2">
