@@ -5,6 +5,6 @@
 		<title>Gas Mileage Calculator</title>
 	</head>
 	<body>
-		<script type="text/javascript" src="#"></script>
+		<script type="text/javascript" src="load.php"></script>
 	</body>
 </html>
