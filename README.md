@@ -11,7 +11,7 @@ Just enter the Distance Driven,the Gas Used and the Price of Gas in the preferre
 # Demo
 
 https://revplit.com/github/demos/gas-mileage-calculator/index
-
+ 
 # Support
 
 If you've any questions or suggestions you can contact us on: https://discord.gg/DCe3m7p
